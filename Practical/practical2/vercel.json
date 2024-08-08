@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+        {"src": "Index.py", "use": "@vercel/python"}
+    ],
+    "routes": [
+        {"src": "/(.*)", "dest": "ndex.py"}
+    ]
+}
