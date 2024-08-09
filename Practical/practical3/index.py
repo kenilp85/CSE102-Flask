@@ -11,6 +11,6 @@ def hello():
 @app.route("/verify",methods=['GET', 'POST'])
 def hello1():
     if request.method=='POST':
-        fullname=request.form.get('nm')
+        fullname = request.form.get('nm')
         age = request.form.get('age')
-        return render_template('verify.html',fullname=fullname, age=age)
+        return render_template('verify.html',fullname=fullname, age=int(age))
