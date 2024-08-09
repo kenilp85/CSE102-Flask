@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Verify</title>
+    </head>
+    <body>
+        <div>
+            <h2>Eligiblity check for voting</h2>
+            <p>Welcome {{ fullname }},</p> 
+            {% if age >= 18 %}
+                <p>You are eligible for voting</p>
+            {% else %}
+                <p>You are not eligible for voting</p>
+            {% endif %}
+        </div>
+
+    </body>
+</html>
