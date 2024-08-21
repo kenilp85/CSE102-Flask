@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>List Files</title>
+</head>
+<body>
+<ul>
+{% for item in entries %}
+<li><a href='static/temp/{{ item }}'>{{ item }}</a> </li>
+{% endfor %}
+</ul> 
+</body>
+</html>
