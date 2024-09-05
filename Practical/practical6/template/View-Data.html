@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Data</title>
+    </head>
+    <body>
+        <table width="500px" align="center">
+            <tr>
+                <td>Student ID</td>
+                <td>Student Name</td>
+                <td>City Name</td>
+            </tr>
+            {% for a1, a2, a3 in studentdata %}
+            <tr>
+                <td>{{ a1 }}</td>
+                <td>{{ a2 }}</td>
+                <td>{{ a3 }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+    </body>
+</html>
