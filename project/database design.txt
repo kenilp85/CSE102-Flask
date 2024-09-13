@@ -1,0 +1,7 @@
+book (tableName)
+id TEXT
+name TEXT
+author TEXT
+category id TEXT 
+price int 
+year of publish int
