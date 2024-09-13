@@ -1,0 +1,1 @@
+This practical gives the demo for use of streamlit
